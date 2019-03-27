@@ -13,11 +13,53 @@
                 <a href="">about_me</a>&nbsp;= [<div class="string">'Daniel'</div>,<div class="string"> 'Bautista'</div>]
             </div>
             <div class="dropdown_content">
-                <a href="">resume</a> <br>
-                <a href="mailto:dbautista_ag@gmail.com">contact</a>
+                <a href="daniel_bautista_resume.pdf">resume</a> <br>
+                <a href="mailto:dbautista_ag@gmail.com" id="contact">contact</a>
             </div>
         </div>
         
     </div>
+
+    <script>
+        cursor_flag = true
+        dropdown_flag = false
+        dropdown_cur_flag = true
+        cursor = document.querySelector('.dropdown')
+        dd_cursor = document.querySelector('#contact')
+
+
+        function style_cursor(cur, flag){
+                if (flag == true) {
+                    cur.setAttribute('style', 'border-right-color: #d4d4c9;')
+                } else {
+                    cur.setAttribute('style', 'border-right-color: transparent;')
+                }
+                cursor_flag = !cursor_flag
+                dropdown_cur_flag = !dropdown_cur_flag
+        }
+
+
+        function test(){
+            if (dropdown_flag == false){
+               style_cursor(cursor, cursor_flag) 
+            } else {
+               style_cursor(dd_cursor, dropdown_cur_flag) 
+            }
+        }
+
+
+        cursor.addEventListener('mouseover', function(){
+            dropdown_flag = true
+            cursor.setAttribute('style', 'border-right-color: transparent;')
+            cursor_flag=true
+        })
+
+        cursor.addEventListener('mouseout', function(){
+            dropdown_flag = false
+        })
+
+        setInterval(test, 530)
+
+    </script>
 </body>
 </html>
