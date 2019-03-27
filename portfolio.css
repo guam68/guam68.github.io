@@ -65,3 +65,17 @@ a:visited {
 .string {
     color: #ce9178;
 }
+
+.icon_wrapper {
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_wrapper a:hover {
+    background-color: unset;
+}
+
+.icon_wrapper a {
+    padding: 0 20px;
+}
