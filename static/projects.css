@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "consolas";
+    src: url("Consolas.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+   color: #d4d4c9;
+   font-family: "consolas";
+   font-size: 3.5em;
+   background-color: #1e1e1e;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#def {
+    color: #358cd6;
+}
+
+#projects {
+    color: #dcdcaa;
+}
+
+#num {
+    color: #8cdcfe;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #d4d4c9;
+    background-color: #3e3e3e;
+    margin-right: 50px;
+}
+
+a {
+    color: #d4d4c9;
+    text-decoration: none;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.project_wrapper a:hover {
+    background-color: #202a34;
+}
+
+a:visited {
+    color: #d4d4c9;
+}
+
+.project_wrapper {
+    margin: 0 5%;
+}
+
+.project {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.proj_title {
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.content_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-right: 50px;
+}
+
+.proj_desc {
+    font-size: 20px;
+    margin-right: 50px;
+    padding-top: 150px;
+}
+

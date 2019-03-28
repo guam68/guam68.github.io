@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+span {
+    color: #a7cea8;
+}
+
 a:hover {
     background-color: #202a34;
 }
