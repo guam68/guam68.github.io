@@ -5,6 +5,7 @@ header {
 .center_head {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
 }
 
@@ -17,3 +18,12 @@ span {
     width:50%;
     margin-bottom: 10%;
 }
+
+/* #headshot {
+    width: 200px;
+    height: 200px;
+} */
+/* img {
+    height: 200px;
+    width: 200px;
+} */
