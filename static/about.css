@@ -1,13 +1,19 @@
-@font-face {
-    font-family: "consolas";
-    src: url("Consolas.ttf");
-    font-weight: normal;
-    font-style: normal;
-  }
 
-body {
-   color: #d4d4c9;
-   font-family: "consolas";
-   font-size: 3.5em;
-   background-color: #1e1e1e;
+header {
+    margin: 0;
+}
+.center_head {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+span {
+    color: #ce9178;
+}
+
+#bio {
+    font-size: 20px;
+    width:50%;
+    margin-bottom: 10%;
 }
