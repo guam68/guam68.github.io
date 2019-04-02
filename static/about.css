@@ -10,6 +10,11 @@ header {
     margin-top: 50px;
 }
 
+#stack_head {
+    display: flex;
+    flex-direction: column;
+}
+
 span {
     color: #ce9178;
 }
@@ -17,11 +22,29 @@ span {
 #bio {
     font-size: 20px;
     width:50%;
-    margin-bottom: 10%;
+    margin-bottom: 80px;
+}
+
+.highlight {
+    display: inline-block;
+    color: #358cd6;
+}
+
+.bio_link {
+    display: contents;
 }
 
 .link_img {
     width: 50px;
+}
+
+.skills {
+        display: flex;
+        font-size: 20px;
+}
+
+ul div {
+    margin: 20px 80px;
 }
 
 
@@ -32,7 +55,7 @@ span {
 
     header {
         flex-direction: column-reverse;
-        align-items: center;
+        margin-bottom: 40px;
     } 
 
     #header_print {
@@ -41,6 +64,8 @@ span {
 
     .nav {
         margin: 20px;
+        justify-content: space-evenly;
+        width: inherit;
     }
 
     .link_img {
@@ -62,11 +87,22 @@ span {
         width:80%;
         margin-bottom: 10%;
     }
+
+    .skills {
+        font-size: 14px;
+    }
+
+    ul div {
+        margin: 0px 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
 }
 
 
 @media screen and (max-width: 1200px) {
     body {
         font-size: 28px;
-    }
 }
