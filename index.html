@@ -4,13 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bautista</title>
-    <link rel="stylesheet" type="text/css" href="static/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="static/index.css" />
 </head>
 <body>
     <div class="center_wrapper">
         <div class="dropdown">
             <div class="about_me">
-                <a href="about.html">about_me</a>&nbsp;= [<div class="string">'Daniel'</div>,<div class="string"> 'Bautista'</div>]
+                <a href="about.html">about_me</a><div id="equals">&nbsp;=&nbsp;</div>
+                    <div id="name_list">
+                        [<div class="string">'Daniel'</div>,<div class="string"> 'Bautista'</div>]
+                    </div>
             </div>
             <div class="dropdown_content">
                 <a href="daniel_bautista_resume.pdf">resume(pdf)</a> <br>
@@ -46,11 +49,14 @@
 
 
         function test(){
-            if (dropdown_flag == false){
-               style_cursor(cursor, cursor_flag) 
-            } else {
-               style_cursor(dd_cursor, dropdown_cur_flag) 
+            if (window.innerWidth >= 1200){
+                if (dropdown_flag == false){
+                    style_cursor(cursor, cursor_flag) 
+                } else {
+                    style_cursor(dd_cursor, dropdown_cur_flag) 
+                }  
             }
+            
         }
 
 

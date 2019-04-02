@@ -83,3 +83,64 @@ a:visited {
 .icon_wrapper a {
     padding: 0 20px;
 }
+
+#name_list {
+    display: flex;
+}
+
+#equals span {
+    color: #d4d4c9;
+} 
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 2em;
+    }
+
+    .about_me {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #name_list {
+        flex-direction: row;
+        margin: 30px 0;
+    }
+
+    #equals {
+        display: none;
+    }
+
+    .dropdown {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-right-style: none;
+    }
+
+    .dropdown_content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: unset;
+        align-items: center;
+    }
+
+    #contact {
+        border-right-style: none;
+    }
+
+    .dropdown:hover .dropdown_content{
+        display: flex;
+    }
+
+    br {
+        display: none;
+    }
+
+}
+
+
+
+
