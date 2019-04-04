@@ -39,12 +39,17 @@ span {
 }
 
 .skills {
-        display: flex;
-        font-size: 20px;
+    display: flex;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 ul div {
     margin: 20px 80px;
+}
+
+.nav {
+    font-size: 24px;
 }
 
 
@@ -105,4 +110,21 @@ ul div {
 @media screen and (max-width: 1200px) {
     body {
         font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .nav {
+        font-size: 14px;
+    }
+
+    .nav a {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #name {
+        font-size: 24px;
+    }
 }

@@ -10,6 +10,7 @@ body {
    font-family: "consolas";
    font-size: 3.5em;
    background-color: #1e1e1e;
+   overflow-x: hidden;
 }
 
 header {
@@ -95,6 +96,11 @@ a:visited {
     width: 30px;
 }
 
+.nav {
+    font-size: 24px;
+}
+
+
 @media screen and (max-width: 1200px) {
     body {
         font-size: 30px;
@@ -150,5 +156,16 @@ a:visited {
 
     .nav a {
         padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav {
+        font-size: 14px;
+    }
+
+    .nav a {
+        padding: 10px;
+        display: inline-block;
     }
 }
