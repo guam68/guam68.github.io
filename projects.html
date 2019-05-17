@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="center_wrapper" id="header_function"><div>
-            <span id="def">def</span><span id="projects"> projects</span>(<span id="num">num</span>):
+            <span class="def">def</span><span id="projects"> projects</span>(<span id="num">num</span>):
         </div></div>
         <div class="nav">
                 <a href="index.html">Home</a>
@@ -33,6 +33,12 @@
             <div class="proj_desc">This is a website that implements the Fantasy Flight Games Keyforge API to show statistics,
                 deck relationships, and other useful information on decks that have been registered in their database. 
                 A Postgres database was used to store information used in calculations and searches.
+                <br><br>
+                Technologies:<br>
+                <div class="def">
+                    Python 3 &emsp; Django 2.2 &emsp; Javascript &emsp; PostgreSQL11 &emsp; HTML5 &emsp; CSS3
+                    &emsp; D3.js
+                </div>
             </div>
         </div>       
     
@@ -48,23 +54,54 @@
             </div>
             <div class="proj_desc">This is a simple ray tracer that uses a geometric solution to test for intersections.
                 The shading method uses the facing ratio to emulate a light source with origin at the camera location.
+                <br><br>
+                Technologies:<br>
+                <div class="def">
+                    Python 3 &emsp; PIL
+                </div>
             </div>
         </div>
 
         <div class="project">
             <div class="project_title">
-                <a href="https://github.com/guam68/rewind" class="proj_title">
-                    Rewind
+                <a href="https://github.com/guam68/pao-encoder" class="proj_title">
+                    PAOsys
                     <img class="ext_link_img" src="static/images/link.png">
                 </a>
             </div>
             <div class="img_center">
-                <img src="static/images/rewind_progress.png" width="500px">
+                <img src="https://www.viralnovelty.net/wp-content/uploads/2016/03/Memory_Cogs.jpg" width="500px">
             </div>
-            <div class="proj_desc">This is a work in progress for a mock VHS rental website. I want to dive deeper into Django's 
-                user system and find this a fun way to do that. 
+            <div class="proj_desc">This is a CLI for use with a predefined PAO memory system. It allows the user to 
+                encode numbers, train by decoding numbers, or edit the associations for each number.
+                <br><br>
+                Technologies:<br>
+                <div class="def">
+                    Python 3 &emsp; openpyxl
+                </div>
             </div>
-        </div> 
+        </div>
+
+        <div class="project">
+            <div class="project_title">
+                <a href="https://github.com/guam68/destiny-curves" class="proj_title">
+                    Destiny Curves
+                    <img class="ext_link_img" src="static/images/link.png">
+                </a>
+            </div>
+            <div class="img_center">
+                <img src="static/images/destiny_progress.png" width="500px">
+            </div>
+            <div class="proj_desc">Work in progress for a Star Wars Destiny tool. The page generates rough damage and 
+                resource curves for decks built on swdestinydb.com. Options allow for the addition of upgrades/supports
+                per turn and what order characters should be targeted in.
+                <br><br>
+                Technologies:<br>
+                <div class="def">
+                    Python 3 &emsp; Django 2.2 &emsp; Javascript &emsp; CSS3 &emsp; HTML5 &emsp; D3.js  
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

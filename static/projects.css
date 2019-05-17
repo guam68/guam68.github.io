@@ -19,7 +19,7 @@ header {
     margin-bottom: 100px;
 }
 
-#def {
+.def {
     color: #358cd6;
 }
 
@@ -39,6 +39,10 @@ header {
     border-color: #d4d4c9;
     background-color: #3e3e3e;
     margin-right: 50px;
+}
+
+.nav a:hover {
+    color: #ce9178;
 }
 
 a {
